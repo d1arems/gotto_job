@@ -1,0 +1,23 @@
+# Dependencies
+node_modules/
+dist/
+build/
+
+# Environment Variables (CRITICAL: Never leak secrets)
+.env
+.env.local
+*.pem
+*.key
+
+# OS Metadata
+.DS_Store
+Thumbs.db
+
+# IDEs and Tools
+.vscode/
+.idea/
+*.swp
+
+# Logs
+npm-debug.log*
+yarn-error.log*
